@@ -1,0 +1,73 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{book}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {{Abramowitz}}{A.}%
+     {Milton}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Stegun}}{S.}%
+     {Irene~A.}{I.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Dover}%
+  }
+  \strng{namehash}{AMSIA1}
+  \strng{fullhash}{AMSIA1}
+  \field{labelyear}{1964}
+  \field{sortinit}{A}
+  \field{edition}{ninth Dover printing, tenth GPO printing}
+  \field{title}{Handbook of Mathematical Functions with Formulas, Graphs, and
+  Mathematical Tables}
+  \list{location}{1}{%
+    {New York}%
+  }
+  \field{year}{1964}
+\endentry
+
+\entry{article}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {{Last name}}{L.}%
+     {First~Name}{F.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Person}}{P.}%
+     {Second}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LFNPS1}
+  \strng{fullhash}{LFNPS1}
+  \field{labelyear}{0001}
+  \field{sortinit}{L}
+  \field{title}{Title of the articl goes here}
+  \field{journaltitle}{Bible}
+  \field{year}{0001}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
