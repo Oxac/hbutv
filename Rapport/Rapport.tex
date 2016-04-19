@@ -1,5 +1,15 @@
 \documentclass{amsart}
 
+\makeatletter
+\newenvironment{chapquote}[2][2em]
+  {\setlength{\@tempdima}{#1}%
+   \def\chapquote@author{#2}%
+   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
+   \itshape}
+  {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
+\makeatother
+
+
 \usepackage[utf8]{inputenc}
 \usepackage[swedish]{babel}
 \usepackage[style=authoryear-ibid,backend=bibtex]{biblatex}
